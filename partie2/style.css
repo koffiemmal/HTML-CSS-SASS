@@ -1,3 +1,7 @@
-h1 {
-    color: blue;
+ul {
+    font-size: 20px;
+}
+
+.PremierP {
+    font-weight: bolder;
 }
