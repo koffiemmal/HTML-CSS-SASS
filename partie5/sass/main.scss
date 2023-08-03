@@ -1,0 +1,57 @@
+    @mixin blockOption( $BH:150px, $BW:150px, $BC:red) {
+        height: $BH;
+        width: $BW;
+        background-color: $BC;
+    }
+    
+    @mixin myTextDecoration {
+        text-decoration: line-through;
+    }
+    
+    @mixin myFs($fs:500px) {
+        font-size: $fs;
+    }
+    
+    .custom {
+        &1 {
+            font-style: italic;
+            color: red;
+            @include myTextDecoration();
+            @include myFs(50px);
+        }
+        &2 {
+            font-style: oblique;
+            color: rgb(74, 44, 209);
+            @include myTextDecoration();
+            @include myFs()
+        }
+        &3 {
+            font-style: italic;
+            color: rgb(107, 26, 57);
+            @include myTextDecoration();
+            @include myFs(45px);
+        }
+        &4 {
+            font-style: oblique;
+            color: rgb(38, 175, 157);
+            @include myTextDecoration();
+            @include myFs(80px);
+        }
+    }
+    
+    .boite {
+        height: 1500px;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &__1 {
+            @include blockOption(500px, 450px, blue);
+        }
+        &__2 {
+            @include blockOption();
+        }
+        &__3 {
+            @include blockOption(50px, 150px, gray);
+        }
+    }

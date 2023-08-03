@@ -1,0 +1,49 @@
+.custom1 {
+  font-style: italic;
+  color: red;
+  text-decoration: line-through;
+  font-size: 50px;
+}
+.custom2 {
+  font-style: oblique;
+  color: rgb(74, 44, 209);
+  text-decoration: line-through;
+  font-size: 500px;
+}
+.custom3 {
+  font-style: italic;
+  color: rgb(107, 26, 57);
+  text-decoration: line-through;
+  font-size: 45px;
+}
+.custom4 {
+  font-style: oblique;
+  color: rgb(38, 175, 157);
+  text-decoration: line-through;
+  font-size: 80px;
+}
+
+.boite {
+  height: 1500px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boite__1 {
+  height: 500px;
+  width: 450px;
+  background-color: blue;
+}
+.boite__2 {
+  height: 150px;
+  width: 150px;
+  background-color: red;
+}
+.boite__3 {
+  height: 50px;
+  width: 150px;
+  background-color: gray;
+}
+
+/*# sourceMappingURL=style.css.map */
