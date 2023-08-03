@@ -1,3 +1,74 @@
+.presentation__detenteurs {
+  font-weight: bold;
+  font-size: 18px;
+}
 
+h1 {
+  text-align: center;
+  background-color: black;
+  color: white;
+  height: 100px;
+}
+
+.presentation {
+  background-image: url(../images/pexels-photo-5882866.jpeg);
+  color: white;
+}
+
+.sujet__list {
+  font-size: 18px;
+  font-style: italic;
+  text-decoration: underline;
+  color: red;
+}
+
+.photo p {
+  color: black;
+}
+
+.photo img {
+  height: 400px;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 5px 5px grey;
+}
+
+.border {
+  border: 1px solid red;
+  border-radius: 5px;
+  box-shadow: 5px 5px gray;
+}
+
+.box__1 {
+  height: 150px;
+  width: 150px;
+  background-color: blue;
+}
+.box__2 {
+  height: 150px;
+  width: 150px;
+  background-color: rgb(87, 87, 104);
+}
+.box__3 {
+  height: 150px;
+  width: 150px;
+  background-color: rgb(4, 4, 59);
+}
+
+.baux__1 {
+  height: 200px;
+  width: 200px;
+  background-color: yellow;
+}
+.baux__2 {
+  height: 200px;
+  width: 200px;
+  background-color: green;
+}
+.baux__3 {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(138, 97, 97);
+}
 
 /*# sourceMappingURL=style.css.map */
