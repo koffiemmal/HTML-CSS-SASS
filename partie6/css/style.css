@@ -1,0 +1,89 @@
+.dynamic {
+  border: 7px double red;
+}
+.dynamic div {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  flex-direction: row;
+}
+.dynamic__box1 {
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: aqua;
+}
+.dynamic__box1:hover {
+  background-color: black;
+}
+.dynamic__box2 {
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: aqua;
+}
+.dynamic__box2:hover {
+  background-color: maroon;
+}
+.dynamic__box3 {
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: aqua;
+}
+.dynamic__box3:hover {
+  background-color: deeppink;
+}
+.dynamic a {
+  text-decoration: none;
+  font-size: 1.3em;
+}
+.dynamic a:active {
+  color: black;
+}
+.dynamic a:visited {
+  color: red;
+}
+.dynamic__link1:hover {
+  color: red;
+}
+.dynamic__link2:hover {
+  color: rgb(47, 75, 65);
+}
+.dynamic__link3:hover {
+  color: rgb(20, 18, 18);
+}
+
+.card {
+  border: 2px dashed black;
+  margin-top: 55px;
+}
+
+section {
+  border: 1px dashed black;
+}
+
+article {
+  height: 200px;
+  width: 250px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: grey;
+}
+
+aside {
+  height: 80px;
+  width: 250px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: blue;
+  padding-left: 10px;
+}
+aside p {
+  background-color: red;
+}
+
+/*# sourceMappingURL=style.css.map */

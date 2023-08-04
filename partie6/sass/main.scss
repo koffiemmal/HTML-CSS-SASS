@@ -1,0 +1,85 @@
+                                                                @mixin bordureBox ($height:300px, $width:300px, $bkc:aqua) {
+                                                                    height: $height;
+                                                                    width: $width;
+                                                                    border: 1px solid black;
+                                                                    border-radius: 5px;
+                                                                    background-color: $bkc;
+                                                                }
+                                                                
+                                                                @mixin flexboxConfig ( $justifyContent:center, $alingItems:center, $flexDirection:row) {
+                                                                    display: flex;
+                                                                    justify-content: $justifyContent;
+                                                                    align-items: $alingItems;
+                                                                    flex-direction: $flexDirection;
+                                                                }
+                                                                
+                                                                .dynamic {
+                                                                    border: 7px double red;
+                                                                    div {
+                                                                        @include flexboxConfig(space-around, baseline)
+                                                                    }
+                                                                    &__box1 {
+                                                                        @include bordureBox();
+                                                                        &:hover {
+                                                                            background-color: black;
+                                                                        }
+                                                                    }
+                                                                    &__box2 {
+                                                                        @include bordureBox();
+                                                                        &:hover {
+                                                                            background-color: maroon;
+                                                                        }
+                                                                    }
+                                                                    &__box3 {
+                                                                        @include bordureBox();
+                                                                        &:hover {
+                                                                            background-color: deeppink;
+                                                                        }
+                                                                    }
+                                                                    a {
+                                                                        text-decoration: none;
+                                                                        font-size: 1.3em;
+                                                                        &:active {
+                                                                            color: black;
+                                                                        }
+                                                                        &:visited {
+                                                                            color: red;
+                                                                        }
+                                                                    }
+                                                                    &__link1 {
+                                                                        &:hover {
+                                                                            color: red;
+                                                                        }
+                                                                    }
+                                                                    &__link2 {
+                                                                        &:hover {
+                                                                            color: rgb(47, 75, 65);
+                                                                        }
+                                                                    }
+                                                                    &__link3 {
+                                                                        &:hover {
+                                                                            color: rgb(20, 18, 18);
+                                                                        }
+                                                                    }
+                                                                }
+                                                                
+                                                                .card {
+                                                                    border: 2px dashed black;
+                                                                    margin-top: 55px;
+                                                                }
+                                                                
+                                                                section {
+                                                                    border: 1px dashed black;
+                                                                }
+                                                                
+                                                                article {
+                                                                    @include bordureBox(200px, 250px, grey)
+                                                                }
+                                                                
+                                                                aside {
+                                                                    @include bordureBox(80px, 250px, blue);
+                                                                    padding-left: 10px;
+                                                                    p {
+                                                                        background-color: red;
+                                                                    }
+                                                                }
