@@ -1,0 +1,205 @@
+body {
+  background-image: url(../images/images/desert-arbre-planete.jpg);
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  border: 1px solid black;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.planete__pres h2 {
+  border: 1px solid black;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.planete__pres {
+  background-color: black;
+}
+
+.planete__desc {
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 5px rgb(24, 23, 23);
+}
+
+.planete__desc p {
+  font-weight: 1500px;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+}
+
+.boiteD {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  height: 400px;
+  align-items: center;
+}
+.boiteD__1 {
+  height: 300px;
+  width: 200px;
+  background-color: blue;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 5px white;
+}
+.boiteD__2 {
+  height: 300px;
+  width: 200px;
+  background-color: gray;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 5px white;
+}
+.boiteD__3 {
+  height: 300px;
+  width: 200px;
+  background-color: pink;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 5px white;
+}
+.boiteD__4 {
+  height: 300px;
+  width: 200px;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 5px white;
+}
+
+.boxD {
+  border: 1px solid rgb(71, 235, 221);
+  height: 1500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: start;
+}
+.boxD__1 {
+  height: 300px;
+  width: 200px;
+  background-color: blue;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 5px white;
+}
+.boxD__2 {
+  height: 300px;
+  width: 200px;
+  background-color: gray;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 5px white;
+}
+.boxD__3 {
+  height: 300px;
+  width: 200px;
+  background-color: pink;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 5px white;
+}
+.boxD__4 {
+  height: 300px;
+  width: 200px;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 5px white;
+}
+
+.boxC {
+  border: 1px solid rgb(233, 223, 223);
+  height: 1500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+.boxC__1 {
+  height: 300px;
+  width: 200px;
+  background-color: blue;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 5px white;
+}
+.boxC__2 {
+  height: 300px;
+  width: 200px;
+  background-color: gray;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 5px white;
+}
+.boxC__3 {
+  height: 300px;
+  width: 200px;
+  background-color: pink;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 5px white;
+}
+.boxC__4 {
+  height: 300px;
+  width: 200px;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 5px white;
+}
+
+.boxG {
+  border: 1px solid rgb(238, 128, 128);
+  height: 1500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: end;
+}
+.boxG__1 {
+  height: 300px;
+  width: 200px;
+  background-color: blue;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 5px white;
+}
+.boxG__2 {
+  height: 300px;
+  width: 200px;
+  background-color: gray;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 5px white;
+}
+.boxG__3 {
+  height: 300px;
+  width: 200px;
+  background-color: pink;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 5px white;
+}
+.boxG__4 {
+  height: 300px;
+  width: 200px;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 5px white;
+}
+
+/*# sourceMappingURL=style.css.map */

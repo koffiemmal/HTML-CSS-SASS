@@ -1,0 +1,147 @@
+        body {
+            background-image: url(../images/images/desert-arbre-planete.jpg);
+            height: 100%;
+            width: 100%;
+        }
+        
+        @mixin titreMilieuFondNoir {
+            border: 1px solid black;
+            text-align: center;
+            color: white;
+            background-color: black;
+        }
+        
+        h1 {
+            @include titreMilieuFondNoir()
+        }
+        
+        .planete__pres {
+            h2 {
+                @include titreMilieuFondNoir()
+            }
+        }
+        
+        .planete__pres {
+            background-color: black;
+        }
+        
+        .planete__desc {
+            border: 1px solid black;
+            border-radius: 5px;
+            box-shadow: 5px 5px rgb(24, 23, 23);
+        }
+        
+        .planete__desc p {
+            font-weight: 1500px;
+            font-size: 25px;
+            text-align: center;
+            color: white;
+        }
+        
+        @mixin tailleBordure($H:300px, $W:200px, $color:black) {
+            height: $H;
+            width: $W;
+            background-color: $color;
+            border: 1px solid black;
+            border-radius: 5px;
+            box-shadow: 5px 5px white;
+        }
+        
+        .boiteD {
+            border: 1px solid red;
+            display: flex;
+            justify-content: center;
+            justify-content: space-around;
+            height: 400px;
+            align-items: center;
+            &__1 {
+                @include tailleBordure(300px, 200px, blue)
+            }
+            &__2 {
+                @include tailleBordure(300px, 200px, gray)
+            }
+            &__3 {
+                @include tailleBordure(300px, 200px, pink)
+            }
+            &__4 {
+                @include tailleBordure()
+            }
+        }
+        
+        @mixin bordureBoxAlignDroit {
+            border: 1px solid rgb(71, 235, 221);
+            height: 1500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            justify-content: space-around;
+            align-items: start;
+        }
+        
+        @mixin bordureBoxAlignGauche {
+            border: 1px solid rgb(238, 128, 128);
+            height: 1500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            justify-content: space-around;
+            align-items: end;
+        }
+        
+        .boxD {
+            @include bordureBoxAlignDroit();
+            &__1 {
+                @include tailleBordure(300px, 200px, blue);
+            }
+            &__2 {
+                @include tailleBordure(300px, 200px, gray);
+            }
+            &__3 {
+                @include tailleBordure(300px, 200px, pink);
+            }
+            &__4 {
+                @include tailleBordure();
+            }
+        }
+        
+        @mixin bordureBoxCentre {
+            border: 1px solid rgb(233, 223, 223);
+            height: 1500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            justify-content: space-around;
+            align-items: center;
+        }
+        
+        .boxC {
+            @include bordureBoxCentre();
+            &__1 {
+                @include tailleBordure(300px, 200px, blue);
+            }
+            &__2 {
+                @include tailleBordure(300px, 200px, gray);
+            }
+            &__3 {
+                @include tailleBordure(300px, 200px, pink);
+            }
+            &__4 {
+                @include tailleBordure();
+            }
+        }
+        
+        .boxG {
+            @include bordureBoxAlignGauche();
+            &__1 {
+                @include tailleBordure(300px, 200px, blue);
+            }
+            &__2 {
+                @include tailleBordure(300px, 200px, gray);
+            }
+            &__3 {
+                @include tailleBordure(300px, 200px, pink);
+            }
+            &__4 {
+                @include tailleBordure();
+            }
+        }
