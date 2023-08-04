@@ -1,3 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+}
 
+header {
+  height: 70px;
+  width: 100%;
+  background-color: violet;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+
+.sub {
+  height: 150px;
+  width: 100%;
+  background-color: rgb(243, 233, 243);
+  margin-top: 70px;
+}
+
+.listesE {
+  margin-left: 50px;
+}
+
+.tables td,
+.tables th,
+.tables caption {
+  border: 1px solid black;
+}
+.tables table {
+  border-collapse: collapse;
+}
+.tables .button {
+  text-align: center;
+}
+
+form {
+  margin-left: 50px;
+}
 
 /*# sourceMappingURL=style.css.map */
